@@ -6,13 +6,13 @@ const cors = require('cors')
 const Connectdb = require('./src/db/connect');
 const NotFound = require('./src/common/malware/NotFound');
 
-const db = 'mongodb://127.0.0.1:27017/Sam-flightE'
+const db = "mongodb://127.0.0.1:27017/UC_airline";
 
 Connectdb(db)
 .then(()=>{
     console.log('Database Successfully Connected')
-    app.listen('8080', ()=>{
-        console.log('Application Started Successfully in Port 8080 !!!')
+    app.listen('8081', ()=>{
+        console.log('Application Started Successfully in Port 8081 !!!')
     })
 })
 .catch((error)=>{

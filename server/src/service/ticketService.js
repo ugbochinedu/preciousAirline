@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+3/* eslint-disable no-undef */
 const { NotFoundException } = require('../exceptions/NotFoundException');
 const Ticket = require('../models/ticket');
 const User = require('../models/user')
